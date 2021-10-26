@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "AIAA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;EACT,WAAW,EAAE,oBAAoB;CACpC",
+    "sources": [
+        "main.scss",
+        "utils/_variables.scss",
+        "utils/_functions.scss",
+        "utils/_mixins.scss",
+        "base/_base.scss",
+        "layouts/_header.scss",
+        "layouts/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
