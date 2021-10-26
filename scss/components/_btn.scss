@@ -1,0 +1,12 @@
+.btn {
+    height: 60px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 25px;
+    border: none;
+    border-radius: 30px;
+    color: $white;
+    background: linear-gradient(0.485turn, $secondary-color,$primary-color);
+    font-size: 1.1em;
+    font-weight: 600;
+}
