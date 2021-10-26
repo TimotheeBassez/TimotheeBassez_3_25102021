@@ -1,0 +1,21 @@
+.footer {
+    color: $white;
+    background-color: lighten($black, $amount: 23);
+    padding: 10px 5%;
+    &__title {
+        font-family: 'Shrikhand',sans-serif;
+        font-weight: 300;
+        font-size: 1.3em;
+    }
+    &__list {
+        list-style: none;
+        padding-left: 0;
+        font-size: 1.05em;
+        li {
+            margin: 8px 0;
+            i {
+                margin-right: 10px;
+            }
+        }
+    }
+}

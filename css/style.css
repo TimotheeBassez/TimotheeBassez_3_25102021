@@ -42,6 +42,28 @@ body {
   font-size: 1.3em;
 }
 
+.footer {
+  color: #FFF;
+  background-color: #3b3b3b;
+  padding: 10px 5%;
+}
+.footer__title {
+  font-family: "Shrikhand", sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+.footer__list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.05em;
+}
+.footer__list li {
+  margin: 8px 0;
+}
+.footer__list li i {
+  margin-right: 10px;
+}
+
 .location {
   background-color: #ebebeb;
   height: 60px;
