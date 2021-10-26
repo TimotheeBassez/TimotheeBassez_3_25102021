@@ -64,6 +64,72 @@ body {
   margin-right: 10px;
 }
 
+.background-picture {
+  height: 250px;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.menu {
+  padding: 40px 5%;
+  background-color: whitesmoke;
+  border-radius: 25px;
+}
+.menu__name {
+  margin: 0;
+  font-family: "Shrikhand", sans-serif;
+  font-weight: 500;
+  font-size: 1.8em;
+  position: relative;
+}
+.menu__name-fav {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  font-size: 0.8em;
+}
+.menu__title {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.2em;
+}
+.menu__title span {
+  padding-bottom: 2px;
+  border-bottom: 4px solid #99E2D0;
+}
+.menu__card {
+  background-color: #FFF;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  padding: 15px;
+}
+.menu__card__title {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.menu__card div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu__card__subtitle {
+  margin: 0;
+  font-weight: 300;
+}
+.menu__card__price {
+  margin: 0;
+  font-weight: bold;
+}
+.menu__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  padding: 0 60px;
+}
+
 .location {
   background-color: #ebebeb;
   height: 60px;

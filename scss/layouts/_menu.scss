@@ -1,0 +1,65 @@
+.background-picture {
+    height: 250px;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.menu {
+    padding: 40px 5%;
+    background-color: $lightgrey;
+    border-radius: 25px;
+    &__name {
+        margin: 0;
+        font-family: 'Shrikhand',sans-serif;
+        font-weight: 500;
+        font-size: 1.8em;
+        position: relative;
+    }
+    &__name-fav {
+        position: absolute;
+        right: 0;
+        top: 10px;
+        font-size: .8em; 
+    }
+    &__title {
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 1.2em;
+        span {
+            padding-bottom: 2px;
+            border-bottom: 4px solid $tertiary-color;
+        }
+    }
+    &__card {
+        background-color: $white;
+        border-radius: 20px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+        margin: 20px 0;
+        padding: 15px;
+        &__title {
+            margin: 0;
+            font-size: 1.2em;
+            font-weight: 500;
+        }
+        div {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &__subtitle {
+            margin: 0;
+            font-weight: 300;
+        }
+        &__price {
+            margin: 0;
+            font-weight: bold;
+        }
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        padding: 0 60px;
+    }
+}
