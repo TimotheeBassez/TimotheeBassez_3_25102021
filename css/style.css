@@ -3,4 +3,24 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.header {
+  padding: 15px;
+  padding-top: 25px;
+}
+.header__container {
+  text-align: center;
+  position: relative;
+  margin: auto 0;
+}
+.header__logo {
+  width: 50vw;
+}
+.header__back {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #000;
+  font-size: 1.3em;
+}
+
 /*# sourceMappingURL=style.css.map */

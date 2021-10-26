@@ -1,0 +1,19 @@
+.header {
+    padding: 15px;
+    padding-top: 25px;
+    &__container {
+        text-align: center;
+        position: relative;
+        margin: auto 0;
+    }
+    &__logo {
+        width: 50vw;
+    }
+    &__back {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        color: $black;
+        font-size: 1.3em;
+    }
+}
