@@ -121,4 +121,51 @@ body {
   font-weight: 500;
 }
 
+.restaurant {
+  padding: 40px 5vw;
+  background-color: whitesmoke;
+}
+
+.restaurant-card {
+  width: 90vw;
+  border-radius: 15px;
+  height: 300px;
+  background-color: #FFF;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.restaurant-card a {
+  text-decoration: none;
+  color: #000;
+}
+.restaurant-card__picture {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+.restaurant-card__new {
+  background-color: #99E2D0;
+  color: #217460;
+  padding: 5px 8px;
+  font: 600;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.restaurant-card__name {
+  margin: 10px;
+  display: inline-block;
+}
+.restaurant-card__location {
+  margin: 0 10px;
+}
+.restaurant-card__fav {
+  font-size: 1.5em;
+  position: absolute;
+  bottom: 40px;
+  right: 25px;
+}
+
 /*# sourceMappingURL=style.css.map */
